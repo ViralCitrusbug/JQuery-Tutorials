@@ -1,19 +1,13 @@
 
 $(document).ready(function () {
-
- 
     $('p').on(
         {
             click: function () {
                 console.log('Thanks for clicking', this);
             },
             mouseleave: function () {
-                console.log("mouseleave");
-
+                console.log("mouseleave");\
             }
-
-
-
         })
 
     // $('#wiki').hide(1000, function () {
