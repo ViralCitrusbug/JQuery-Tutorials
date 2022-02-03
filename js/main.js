@@ -1,3 +1,6 @@
+// COMMENT OUT CODE ONE BY ONE TO CHECK
+
+
 
 $(document).ready(function () {
     $('p').on(
