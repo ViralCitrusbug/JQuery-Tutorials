@@ -9,7 +9,7 @@ $(document).ready(function () {
                 console.log('Thanks for clicking', this);
             },
             mouseleave: function () {
-                console.log("mouseleave");\
+                console.log("mouseleave");
             }
         })
 
