@@ -3,15 +3,15 @@
 
 
 $(document).ready(function () {
-    $('p').on(
-        {
-            click: function () {
-                console.log('Thanks for clicking', this);
-            },
-            mouseleave: function () {
-                console.log("mouseleave");
-            }
-        })
+    // $('p').on(
+    //     {
+    //         click: function () {
+    //             console.log('Thanks for clicking', this);
+    //         },
+    //         mouseleave: function () {
+    //             console.log("mouseleave");
+    //         }
+    //     })
 
     // $('#wiki').hide(1000, function () {
     //     console.log("hidden");
@@ -23,10 +23,12 @@ $(document).ready(function () {
     // Hide on Click
 
     // $('#but').click(function () {
-    //     $("#wiki").hide(1000);
+    //     $("#wiki").hide(1000,function(){
+    //         console.log("Hidden");
+    //     });
     // })
 
-    //     fadeIn()
+    // fadeIn()
     // fadeOut()
     // fadeToggle()
     // fadeTo()
@@ -44,7 +46,7 @@ $(document).ready(function () {
     // Animate Slide Up Slowly  
 
     // $('#wiki').animate({
-    //     opacity:0.3,
+    //     opacity:0.5,
     //     height: '150px',
     //     width:'350px'
     // }, "slow")
@@ -66,17 +68,23 @@ $(document).ready(function () {
 
     // Add Value in HTML ( DOM manipulations )
     
-    // $('#ta').val('setting it to harry');
-    // $('#ta').html('setting it to harry');
-    // $('#ta').html('setting it to harry3');
-    // $('#inp').html('setting it to harry3');
-    // $('#inp').val('setting it to harry3');
+    // $('#ta').val('setting it to attr');
+    // $('#ta').html('setting it to attr1');
+    // console.log(document.getElementById("ta"));
+    // $('#ta').html('setting it to attr3');
+    // $('#inp').html('setting it to attr3');
+    // console.log(document.getElementById('inp'));
+    // $('#inp').val('setting it to attr3');
+    // console.log(document.getElementById("inp"));
+
     // $('#inp').empty()
     // $('#wiki').empty()
-    // $('#wiki').text('you are good')
+    // $('#wiki').text('Paragraph is changed .')
+    // console.log(document.getElementById("wiki"));
     
     // Removing class , id elements
     // $('#wiki').remove()
+    // console.log(document.getElementById("wiki"));
 
     // Adding Class to HTML
 
