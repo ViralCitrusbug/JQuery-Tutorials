@@ -100,4 +100,21 @@ $(document).ready(function () {
     // $('#wiki').css('background-color')
 
 
+    // Serialize and SerializeArray()
+     
+    // $(document).ready(function(){
+    //     $("button").click(function(){
+
+            // Serialize() 
+    //     //   $("div").text($("form").serialize());
+
+
+            // Serialize Array()
+    //       var x = $("form").serializeArray();
+    //       $.each(x, function(i, field){
+    //         $("#results").append(field.name + ":" + field.value + " ");
+    //       });
+    //     });
+    //   });
+
 });
